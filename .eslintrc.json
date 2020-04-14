@@ -1,0 +1,25 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "@typescript-eslint/class-name-casing": "warn",
+        "@typescript-eslint/semi": "error",
+        "curly": "error",
+        "eqeqeq": "error",
+        "no-throw-literal": "warn",
+        "semi": "error",
+        "no-eval":"error",
+        "no-trailing-spaces":"error",
+        "no-var":"error",
+        "no-multiple-empty-lines": "error",
+        "object-shorthand": "error",
+        "spaced-comment": "error"
+    }
+}
